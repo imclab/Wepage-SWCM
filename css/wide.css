@@ -1,0 +1,10 @@
+
+h1{font-size: 28pt; text-align: center;}
+#info{width: 930px; height: 300px;}
+#text { left: 340px ; position:relative ; bottom: 268px; width:600px; padding-left:10px;
+padding-top: 10px; }
+#video { border-style:solid; border-color: black;}
+iframe { height: 510px; width: 100%;}
+
+footer    { display: block; }
+footer:after { content: "       (Wide Layout)"; }

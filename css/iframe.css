@@ -1,0 +1,10 @@
+
+html, body {
+		background:#CCC;   
+}
+
+#map_canvas {
+        height: 400px;
+        width: 70%;
+    }
+#caja {width: 30%; position: absolute; bottom: 200px; left:73%;}

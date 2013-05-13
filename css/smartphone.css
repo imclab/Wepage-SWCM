@@ -1,0 +1,13 @@
+
+#text{ width:95%; }
+#info{width:100%;}
+#map_canvas {
+        height: 250px;
+        width: 100%;
+    }
+iframe { height: 510px; width: 95%;}
+
+
+footer           { display: none; }
+body:after { content: "Smartphone Layout"; }
+body             { font-size: large; }

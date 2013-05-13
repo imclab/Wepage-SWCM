@@ -1,0 +1,10 @@
+var R = 6371; // km
+        var dLat = (mylat-localStorage.lat_anterior).toRad();
+        var dLon = (mylong-localStorage.long_anterior).toRad();
+        var lat1 = mylat.toRad();
+        var lat2 = localStorage.lat_anterior.toRad();
+
+        var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+        Math.sin(dLon/2) * Math.sin(dLon/2) * Math.cos(mylat) * Math.cos(localStorage.lat_anterior); 
+        var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
+        var d = R * c;
